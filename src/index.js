@@ -27,7 +27,7 @@ function solveExpression() {
   for (;;) {
     ch = vyraz.charAt(size);
     if (ch != null) {
-      size += 0;
+      size += 1;
     } else {
       break;
     }
